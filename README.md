@@ -2,7 +2,7 @@
 
 Welcome to the Temple Trap puzzle solver! This project features an intelligent solver that uses the A* search algorithm to find the optimal solution to the Temple Trap board game. It also includes an interactive Pygame visualization that allows you to play the game, test your own strategies, and watch the solver in action.
 
-## 📜 Project Overview
+##  Project Overview
 
 The goal in Temple Trap is to guide a pawn to the exit of a shifting temple maze. This is achieved by sliding tiles to reconfigure the pathways. This project provides both a tool to find the most efficient solution and a platform to interact with the puzzle visually.
 
@@ -13,7 +13,7 @@ The goal in Temple Trap is to guide a pawn to the exit of a shifting temple maze
 *   **`puzzle_levels.py`**: This file acts as the blueprint for the puzzles, defining the layout of the tiles and the starting conditions for various levels.
 *   **`main.py`**: A command-line tool that runs the solver for all defined levels and prints the step-by-step solution for each.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ The goal in Temple Trap is to guide a pawn to the exit of a shifting temple maze
     python main.py
     ```
 
-## 🎮 Game Controls
+##  Game Controls
 
 The Pygame interface provides the following controls:
 
@@ -59,7 +59,7 @@ The Pygame interface provides the following controls:
     *   **Shift + Arrow Keys**: Move the pawn directionally.
     *   **Numpad 1-9**: Move the pawn to a specific cell.
 
-## 🧩 Adding New Puzzles
+##  Adding New Puzzles
 
 You can define your own levels in `puzzle_levels.py`. Use the following format:
 
